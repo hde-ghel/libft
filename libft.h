@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/10 11:25:46 by hde-ghel          #+#    #+#             */
-/*   Updated: 2019/04/05 15:06:45 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2019/12/14 14:59:32 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,5 +89,7 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				*ft_freetab(char **tab, int k);
 int					ft_isupper(int c);
 int					ft_islower(int c);
+int					ft_isnan(long double nb);
+int					ft_isinf(long double nb);
 int					get_next_line(const int fd, char **line);
 #endif

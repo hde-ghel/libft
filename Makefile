@@ -6,7 +6,7 @@
 #    By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/10 11:33:13 by hde-ghel          #+#    #+#              #
-#    Updated: 2019/10/23 16:04:22 by hde-ghel         ###   ########.fr        #
+#    Updated: 2019/12/14 14:50:43 by hde-ghel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRC = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c ft_memchr.c \
 	  ft_strjoin.c ft_strsub.c ft_strequ.c ft_strnequ.c ft_strtrim.c \
 	  ft_strsplit.c ft_itoa.c ft_lstnew.c ft_lstdelone.c ft_lstdel.c \
 	  ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_isupper.c ft_islower.c \
-	  ft_strjoin_free.c ft_freetab.c get_next_line.c
+	  ft_strjoin_free.c ft_freetab.c get_next_line.c ft_isnan.c ft_isinf.c
 OBJ = $(SRC:.c=.o)
 
 all : $(NAME)
